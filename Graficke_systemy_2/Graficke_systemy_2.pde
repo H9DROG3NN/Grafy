@@ -77,9 +77,9 @@ void draw(){
   float []y = new float[pGrafov];
   for(int i=1;i<1900;i++,x+=0.02){
     
-    y[0] = x+1;      //rovnice grafov | y[index(od 0 po (pocet grafov-1) vratane)] = rovnica
-    y[1] = x;          //index i nemoze byt vačší ako (pocet grafov - 1)
-    y[2] = x+2;
+    y[0] = x+2;      //rovnice grafov | y[index(od 0 po (pocet grafov-1) vratane)] = rovnica
+    y[1] = x/2+1;          //index i nemoze byt vačší ako (pocet grafov - 1)
+    y[2] = 2-2*x/3;
     
     for(int j=0;j<pGrafov;j++){
       for(int z=1;z<aX.size();z++){
