@@ -2,7 +2,7 @@ Bg b;
 Graf[][] g;
 EditTab e;
 
-float m=2,n=1/2.0; //m = priblizenie na osi x, n = priblizenie na osi y, ak date desatinne cislo tak graf oddiali
+float m=1,n=1; //m = priblizenie na osi x, n = priblizenie na osi y, ak date desatinne cislo tak graf oddiali
 int pGrafov=3; //pocet grafov kolko chcete mat v grafickom systeme
 int h=450; //minimalna svetlost farieb, cim vyssie cislo tym svetlejsie | h nesmie byt vacsie ako 750
 
